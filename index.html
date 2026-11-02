@@ -1,0 +1,1836 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>荒磯丸 あらいそまる | 日高昆布豚まん</title>
+  <meta name="description" content="北海道・新ひだか町の昆布屋、磯貝嘉市商店が届ける日高昆布豚まん「あらいそまる」。ふかふか生地のご当地豚まんを公式通販でどうぞ。">
+  <link rel="canonical" href="https://hokkaido-gadget.github.io/isogai-araisomaru/">
+  <link rel="icon" type="image/jpeg" href="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-araisomaru-black.jpg">
+  <link rel="apple-touch-icon" href="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-araisomaru-black.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="荒磯丸 あらいそまる | 磯貝嘉市商店">
+  <meta property="og:title" content="荒磯丸 あらいそまる | 日高昆布豚まん">
+  <meta property="og:description" content="北海道・新ひだか町の昆布屋、磯貝嘉市商店が届ける日高昆布豚まん「あらいそまる」。ふかふか生地のご当地豚まんを公式通販でどうぞ。">
+  <meta property="og:url" content="https://hokkaido-gadget.github.io/isogai-araisomaru/">
+  <meta property="og:image" content="https://hokkaido-gadget.github.io/isogai-araisomaru/https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-araisomaru-black.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="荒磯丸 あらいそまる | 日高昆布豚まん">
+  <meta name="twitter:description" content="北海道・新ひだか町の昆布屋、磯貝嘉市商店が届ける日高昆布豚まん「あらいそまる」。ふかふか生地のご当地豚まんを公式通販でどうぞ。">
+  <meta name="twitter:image" content="https://hokkaido-gadget.github.io/isogai-araisomaru/https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-araisomaru-black.jpg">
+  <!-- アクセス解析（要対応）: GA4等の測定IDを取得したら、この場所に計測タグを設置する。現時点では未設置。 -->
+  <style>
+    :root {
+      --ink: #10243d;
+      --muted: #607087;
+      --paper: #fffaf0;
+      --sand: #fff0bd;
+      --navy: #0b2747;
+      --navy-soft: #143b66;
+      --sea: #116b75;
+      --sea-deep: #081d34;
+      --kelp: #304723;
+      --gold: #ffd447;
+      --red: #e24a2a;
+      --pink: #ee7aa5;
+      --sky: #60b7c8;
+      --line: rgba(11, 39, 71, .16);
+      --shadow: 0 18px 42px rgba(11, 39, 71, .16);
+      --pop-shadow: 6px 6px 0 rgba(11, 39, 71, .95);
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(180deg, rgba(255, 212, 71, .22), rgba(255, 250, 240, 0) 420px),
+        var(--paper);
+      font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "YuGothic", Meiryo, system-ui, sans-serif;
+      line-height: 1.75;
+    }
+
+    a { color: inherit; }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    figure {
+      margin: 0;
+    }
+
+    .site-header {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 16px clamp(18px, 4vw, 56px);
+      color: #fff;
+      background: linear-gradient(180deg, rgba(8, 29, 52, .92), rgba(8, 29, 52, 0));
+    }
+
+    .brand {
+      display: grid;
+      gap: 2px;
+      font-weight: 800;
+      letter-spacing: 0;
+      line-height: 1.2;
+    }
+
+    .brand small {
+      font-size: 12px;
+      font-weight: 700;
+      opacity: .86;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .nav a {
+      text-decoration: none;
+      padding: 9px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 212, 71, .26);
+      background: rgba(11, 39, 71, .42);
+      backdrop-filter: blur(12px);
+    }
+
+    .hero {
+      min-height: 86vh;
+      position: relative;
+      display: grid;
+      align-items: end;
+      overflow: hidden;
+      color: #fff;
+      background: var(--navy);
+      padding: 0;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(8, 29, 52, .94), rgba(8, 29, 52, .58) 48%, rgba(8, 29, 52, .18)),
+        linear-gradient(180deg, rgba(8, 29, 52, .06), rgba(8, 29, 52, .86)),
+        url("https://hokkaido-gadget.github.io/isogai-araisomaru/assets/hero-sea.jpg") center / cover;
+      transform: scale(1.04);
+      animation: slowPan 18s ease-in-out infinite alternate;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background-image: radial-gradient(circle, rgba(255, 212, 71, .18) 1px, transparent 1px);
+      background-size: 26px 26px;
+      mix-blend-mode: screen;
+      opacity: .46;
+    }
+
+    @keyframes slowPan {
+      from { transform: scale(1.04) translateX(-1%); }
+      to { transform: scale(1.09) translateX(1.5%); }
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 1;
+      width: min(1180px, calc(100% - 36px));
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, .75fr);
+      gap: clamp(28px, 6vw, 72px);
+      align-items: end;
+      padding: 112px 0 42px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      gap: 9px;
+      padding: 8px 12px;
+      border: 1px solid rgba(255, 255, 255, .34);
+      border-radius: 999px;
+      color: var(--navy);
+      border-color: rgba(11, 39, 71, .96);
+      background: var(--gold);
+      font-size: 13px;
+      font-weight: 800;
+      box-shadow: 4px 4px 0 rgba(11, 39, 71, .92);
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--gold);
+      box-shadow: 0 0 0 5px rgba(200, 144, 57, .24);
+    }
+
+    h1 {
+      margin: 22px 0 18px;
+      max-width: 760px;
+      font-size: 72px;
+      line-height: 1.02;
+      letter-spacing: 0;
+      text-wrap: auto;
+      word-break: keep-all;
+      text-shadow: 0 4px 0 rgba(11, 39, 71, .54);
+    }
+
+    .title-line {
+      display: block;
+      white-space: nowrap;
+    }
+
+    .title-main {
+      font-size: 1em;
+    }
+
+    .title-sub {
+      margin-top: 4px;
+      font-size: .72em;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 680px;
+      margin: 0;
+      font-size: clamp(17px, 2.2vw, 23px);
+      color: rgba(255, 255, 255, .88);
+      font-weight: 700;
+    }
+
+    .hero-price-tag {
+      display: inline-flex;
+      align-items: baseline;
+      gap: 10px;
+      width: fit-content;
+      margin-top: 22px;
+      padding: 10px 18px;
+      border: 3px solid var(--navy);
+      border-radius: 14px;
+      color: var(--navy);
+      background: #fff;
+      box-shadow: 5px 5px 0 var(--gold);
+      font-weight: 900;
+    }
+
+    .hero-price-tag .price {
+      color: var(--red);
+      font-size: 28px;
+      line-height: 1;
+    }
+
+    .hero-price-tag .tax {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 28px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      min-height: 48px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      border: 1px solid transparent;
+      font-weight: 900;
+      text-decoration: none;
+      transition: transform .2s ease, background .2s ease, border-color .2s ease;
+    }
+
+    .button:hover { transform: translateY(-2px); }
+
+    .button.primary {
+      color: #fff;
+      border: 2px solid var(--navy);
+      background: var(--red);
+      box-shadow: 5px 5px 0 rgba(11, 39, 71, .92);
+    }
+
+    .button.secondary {
+      color: var(--navy);
+      border: 2px solid var(--navy);
+      background: var(--gold);
+      box-shadow: 5px 5px 0 rgba(11, 39, 71, .72);
+    }
+
+    .button.outline {
+      color: var(--navy);
+      border: 2px solid var(--navy);
+      background: rgba(255, 255, 255, .7);
+      box-shadow: 4px 4px 0 rgba(11, 39, 71, .18);
+    }
+
+    .video-panel {
+      position: relative;
+      border: 3px solid var(--gold);
+      border-radius: 8px;
+      overflow: hidden;
+      background: rgba(255, 255, 255, .1);
+      box-shadow: 8px 8px 0 rgba(11, 39, 71, .88), 0 28px 80px rgba(0, 0, 0, .36);
+      backdrop-filter: blur(18px);
+    }
+
+    .video-stage {
+      position: relative;
+      aspect-ratio: 4 / 4.35;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(9, 47, 55, .12), rgba(9, 47, 55, .78)),
+        url("https://hokkaido-gadget.github.io/isogai-araisomaru/assets/araisomaru-hero.jpeg") center / cover;
+    }
+
+    .video-stage video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    .video-stage::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      background: linear-gradient(180deg, rgba(4, 25, 28, .08), rgba(4, 25, 28, .54));
+    }
+
+    .video-badge {
+      position: absolute;
+      left: 16px;
+      right: 16px;
+      bottom: 16px;
+      z-index: 2;
+      display: grid;
+      gap: 3px;
+      color: #fff;
+      text-shadow: 0 2px 16px rgba(0, 0, 0, .56);
+    }
+
+    .video-badge strong {
+      font-size: clamp(18px, 2.2vw, 27px);
+      line-height: 1.25;
+    }
+
+    .video-badge span {
+      font-size: 12px;
+      font-weight: 900;
+      color: rgba(255, 255, 255, .82);
+    }
+
+    .video-caption {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 14px 16px;
+      font-size: 13px;
+      font-weight: 800;
+      color: rgba(255, 255, 255, .9);
+    }
+
+    .video-note {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      z-index: 3;
+      padding: 7px 11px;
+      border-radius: 999px;
+      color: #fff;
+      background: rgba(0, 0, 0, .46);
+      font-size: 12px;
+      font-weight: 900;
+      backdrop-filter: blur(12px);
+    }
+
+    main {
+      overflow: clip;
+    }
+
+    section {
+      padding: clamp(58px, 9vw, 112px) 0;
+    }
+
+    .wrap {
+      width: min(1120px, calc(100% - 36px));
+      margin: 0 auto;
+    }
+
+    .section-head {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 30px;
+      max-width: 760px;
+    }
+
+    .section-kicker {
+      width: fit-content;
+      padding: 5px 12px;
+      border: 2px solid var(--navy);
+      border-radius: 6px;
+      color: var(--navy);
+      background: var(--gold);
+      font-size: 13px;
+      font-weight: 900;
+      box-shadow: 3px 3px 0 var(--navy);
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(28px, 4.2vw, 52px);
+      line-height: 1.14;
+      letter-spacing: 0;
+      text-wrap: balance;
+    }
+
+    .section-head p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .proof-strip {
+      position: relative;
+      z-index: 3;
+      margin-top: -28px;
+    }
+
+    .proof-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border-radius: 8px;
+      overflow: hidden;
+      border: 3px solid var(--navy);
+      background: #fff;
+      box-shadow: var(--pop-shadow);
+    }
+
+    .proof {
+      min-height: 120px;
+      padding: 20px;
+      border-right: 1px solid var(--line);
+    }
+
+    .proof:last-child { border-right: 0; }
+
+    .proof strong {
+      display: block;
+      font-size: 24px;
+      line-height: 1.2;
+      color: var(--navy);
+    }
+
+    .proof span {
+      display: block;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .split {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: clamp(28px, 5vw, 70px);
+      align-items: center;
+    }
+
+    .media-stack {
+      display: grid;
+      grid-template-columns: 1fr .72fr;
+      gap: 14px;
+      align-items: end;
+    }
+
+    .media-stack img {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .media-stack img:first-child {
+      aspect-ratio: 4 / 5;
+    }
+
+    .media-stack img:last-child {
+      aspect-ratio: 1;
+      margin-bottom: 42px;
+    }
+
+    .copy-block {
+      display: grid;
+      gap: 22px;
+    }
+
+    .copy-block p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .feature-list {
+      display: grid;
+      gap: 12px;
+      margin: 8px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .feature-list li {
+      display: grid;
+      grid-template-columns: 26px 1fr;
+      gap: 12px;
+      align-items: start;
+      padding: 14px;
+      border: 2px solid rgba(11, 39, 71, .2);
+      border-radius: 8px;
+      background: #fff;
+      font-weight: 800;
+    }
+
+    .feature-list li::before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      margin-top: 4px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 35%, #fff 0 18%, var(--gold) 19% 100%);
+    }
+
+    .fun-band {
+      padding: 18px 0;
+      color: var(--navy);
+      border-top: 3px solid var(--navy);
+      border-bottom: 3px solid var(--navy);
+      background: var(--gold);
+      overflow: hidden;
+      font-weight: 900;
+    }
+
+    .fun-band-track {
+      width: max-content;
+      display: flex;
+      gap: 28px;
+      animation: marquee 24s linear infinite;
+      white-space: nowrap;
+      padding-left: 18px;
+    }
+
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    .bg-sand {
+      background:
+        radial-gradient(circle at 0 0, rgba(255, 212, 71, .4), transparent 300px),
+        var(--sand);
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    .product {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      min-height: 100%;
+      border: 3px solid var(--navy);
+      border-radius: 8px;
+      background: #fff;
+      overflow: hidden;
+      box-shadow: 5px 5px 0 rgba(11, 39, 71, .92);
+      transform: rotate(-.3deg);
+    }
+
+    .product:nth-child(even) {
+      transform: rotate(.3deg);
+    }
+
+    .product img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      background: #f5f1e7;
+    }
+
+    .product-body {
+      padding: 18px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .product h3 {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.35;
+    }
+
+    .product p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .price {
+      color: var(--red);
+      font-size: 16px;
+      font-weight: 900;
+    }
+
+    .product-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      padding: 9px 14px;
+      border-radius: 999px;
+      color: #fff;
+      border: 2px solid var(--navy);
+      background: var(--red);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 900;
+      box-shadow: 3px 3px 0 rgba(11, 39, 71, .86);
+    }
+
+    .casual-gallery {
+      display: grid;
+      grid-template-columns: 1fr 1.1fr .9fr;
+      grid-template-rows: repeat(5, 210px);
+      gap: 14px;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 8px;
+      background: #fff;
+      border: 3px solid var(--navy);
+      box-shadow: 5px 5px 0 rgba(11, 39, 71, .9);
+    }
+
+    .gallery-item img,
+    .gallery-item video {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .gallery-item img {
+      object-fit: cover;
+    }
+
+    .gallery-item video {
+      object-fit: contain;
+      background: #101412;
+    }
+
+    .gallery-item.video-item {
+      background: #101412;
+    }
+
+    .gallery-item.large {
+      grid-row: span 2;
+    }
+
+    .gallery-item.wide {
+      grid-column: span 2;
+    }
+
+    .gallery-item.tall {
+      grid-row: span 2;
+    }
+
+    .gallery-item.video-wide {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .gallery-item.video-tall {
+      grid-row: span 2;
+    }
+
+    .gallery-label {
+      position: absolute;
+      left: 14px;
+      bottom: 14px;
+      z-index: 2;
+      padding: 7px 12px;
+      border-radius: 999px;
+      color: #fff;
+      background: rgba(24, 32, 23, .72);
+      border: 1px solid rgba(255, 212, 71, .5);
+      font-size: 13px;
+      font-weight: 900;
+      backdrop-filter: blur(10px);
+    }
+
+    .video-item .gallery-label {
+      top: 14px;
+      bottom: auto;
+    }
+
+    .gallery-item::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, .4));
+    }
+
+    .reaction-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 14px;
+      margin-top: 28px;
+    }
+
+    .reaction-card,
+    .easy-card {
+      border-radius: 8px;
+      border: 3px solid var(--navy);
+      background: #fff;
+      box-shadow: 5px 5px 0 rgba(11, 39, 71, .9);
+    }
+
+    .reaction-card {
+      padding: clamp(22px, 4vw, 34px);
+    }
+
+    .reaction-card h3,
+    .easy-card h3 {
+      margin: 0;
+      color: var(--ink);
+      font-size: clamp(24px, 3.2vw, 38px);
+      line-height: 1.15;
+    }
+
+    .reaction-card p {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .reaction-list {
+      display: grid;
+      gap: 10px;
+      margin: 22px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .reaction-list li {
+      padding: 13px 14px;
+      border-radius: 8px;
+      background: var(--sand);
+      border: 2px solid rgba(11, 39, 71, .18);
+      color: var(--ink);
+      font-weight: 900;
+    }
+
+    .easy-card {
+      overflow: hidden;
+    }
+
+    .easy-card img {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+      display: block;
+    }
+
+    .easy-body {
+      padding: 22px;
+    }
+
+    .easy-steps {
+      display: grid;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .easy-step {
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      gap: 10px;
+      align-items: start;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .easy-step span {
+      display: inline-grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 999px;
+      color: #fff;
+      background: var(--navy);
+      font-weight: 900;
+    }
+
+    .story {
+      color: #fff;
+      background:
+        linear-gradient(90deg, rgba(8, 29, 52, .96), rgba(20, 59, 102, .78)),
+        url("https://hokkaido-gadget.github.io/isogai-araisomaru/assets/kombu-drying.jpg") center / cover;
+    }
+
+    .story .section-kicker,
+    .story .section-head p {
+      color: rgba(255, 255, 255, .78);
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .story-card {
+      min-height: 210px;
+      padding: 22px;
+      border: 2px solid rgba(255, 212, 71, .28);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .12);
+      backdrop-filter: blur(14px);
+    }
+
+    .story-card span {
+      display: inline-grid;
+      place-items: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      margin-bottom: 18px;
+      background: var(--gold);
+      color: var(--navy);
+      font-weight: 900;
+      box-shadow: 3px 3px 0 rgba(11, 39, 71, .82);
+    }
+
+    .story-card h3 {
+      margin: 0 0 10px;
+      font-size: 21px;
+    }
+
+    .story-card p {
+      margin: 0;
+      color: rgba(255, 255, 255, .78);
+      font-weight: 700;
+    }
+
+    .use-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+
+    .use {
+      min-height: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 20px;
+      border-radius: 8px;
+      color: #fff;
+      overflow: hidden;
+      position: relative;
+      background: var(--sea-deep);
+    }
+
+    .use::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, .62));
+    }
+
+    .use:nth-child(1) { background: linear-gradient(135deg, var(--navy), #235b8a); }
+    .use:nth-child(2) { background: linear-gradient(135deg, #0a3b54, var(--sea)); }
+    .use:nth-child(3) { background: linear-gradient(135deg, var(--navy-soft), var(--gold)); }
+
+    .use h3,
+    .use p {
+      position: relative;
+      margin: 0;
+    }
+
+    .use h3 {
+      font-size: 24px;
+      line-height: 1.2;
+    }
+
+    .use p {
+      margin-top: 8px;
+      color: rgba(255, 255, 255, .82);
+      font-weight: 800;
+    }
+
+    .media-feature {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: clamp(24px, 5vw, 56px);
+      align-items: center;
+    }
+
+    .media-section .section-head {
+      max-width: 860px;
+      margin-bottom: 28px;
+    }
+
+    .media-section .section-head h2 {
+      max-width: 840px;
+    }
+
+    .media-grid {
+      display: grid;
+      grid-template-columns: 1.25fr .75fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .media-side-stack {
+      display: grid;
+      gap: 18px;
+    }
+
+    .media-side-stack .media-card {
+      grid-template-columns: 42% 1fr;
+      grid-template-rows: auto;
+    }
+
+    .media-side-stack .media-embed {
+      min-height: 100%;
+    }
+
+    .media-card {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      overflow: hidden;
+      border: 3px solid var(--navy);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 6px 6px 0 rgba(11, 39, 71, .9);
+    }
+
+    .media-card.featured {
+      border-color: var(--gold);
+      box-shadow: 8px 8px 0 rgba(11, 39, 71, .94);
+    }
+
+    .media-embed {
+      position: relative;
+      aspect-ratio: 16 / 9;
+      background: var(--sea-deep);
+    }
+
+    .media-embed iframe {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .media-card-body {
+      display: grid;
+      gap: 10px;
+      padding: 18px;
+    }
+
+    .media-card-body h3 {
+      margin: 0;
+      font-size: clamp(21px, 3vw, 32px);
+      line-height: 1.25;
+    }
+
+    .media-side-stack .media-card-body h3 {
+      font-size: clamp(19px, 2.1vw, 24px);
+    }
+
+    .media-card-body p {
+      margin: 0;
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .media-card .media-tag {
+      position: static;
+      width: fit-content;
+      color: var(--navy);
+      background: var(--gold);
+      border: 2px solid var(--navy);
+      box-shadow: 3px 3px 0 rgba(11, 39, 71, .86);
+    }
+
+    .media-tag {
+      padding: 7px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .media-photo-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+      margin-top: 24px;
+    }
+
+    .media-photo {
+      position: relative;
+      overflow: hidden;
+      border: 3px solid var(--navy);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 5px 5px 0 rgba(11, 39, 71, .9);
+    }
+
+    .media-photo img {
+      width: 100%;
+      aspect-ratio: 16 / 10;
+      object-fit: cover;
+    }
+
+    .media-photo figcaption {
+      position: absolute;
+      left: 14px;
+      bottom: 14px;
+      padding: 7px 11px;
+      border: 2px solid var(--navy);
+      border-radius: 999px;
+      color: var(--navy);
+      background: rgba(255, 212, 71, .94);
+      font-size: 13px;
+      font-weight: 900;
+      box-shadow: 3px 3px 0 rgba(11, 39, 71, .82);
+    }
+
+    .media-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .cta {
+      padding: 0 0 clamp(58px, 9vw, 112px);
+      background: var(--paper);
+    }
+
+    .cta-box {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 28px;
+      align-items: center;
+      padding: clamp(28px, 5vw, 56px);
+      border-radius: 8px;
+      color: #fff;
+      background:
+        linear-gradient(135deg, rgba(8, 29, 52, .97), rgba(20, 59, 102, .9)),
+        url("https://hokkaido-gadget.github.io/isogai-araisomaru/assets/hero-sea.jpg") center / cover;
+      border: 3px solid var(--gold);
+      box-shadow: 7px 7px 0 rgba(11, 39, 71, .92);
+    }
+
+    .cta h2 {
+      font-size: clamp(30px, 5vw, 58px);
+    }
+
+    .cta p {
+      margin: 16px 0 0;
+      color: rgba(255, 255, 255, .82);
+      font-size: 17px;
+      font-weight: 700;
+    }
+
+    .cta-actions {
+      display: grid;
+      gap: 12px;
+    }
+
+    .cta-actions .button {
+      width: 100%;
+    }
+
+    footer {
+      padding: 28px 18px;
+      text-align: center;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .sticky-buy {
+      position: fixed;
+      left: 50%;
+      bottom: 16px;
+      z-index: 30;
+      transform: translateX(-50%);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: min(420px, calc(100% - 32px));
+      min-height: 52px;
+      padding: 12px 20px;
+      border-radius: 999px;
+      color: #fff;
+      border: 2px solid var(--navy);
+      background: var(--red);
+      box-shadow: 4px 4px 0 rgba(11, 39, 71, .88);
+      box-shadow: 4px 4px 0 rgba(11, 39, 71, .88), 0 18px 42px rgba(91, 25, 16, .28);
+      text-decoration: none;
+      font-weight: 900;
+    }
+
+    @media (max-width: 900px) {
+      .nav a:not(:last-child) { display: none; }
+
+      .hero-inner,
+      .split,
+      .cta-box,
+      .media-feature,
+      .media-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: auto;
+      }
+
+      .hero-inner {
+        padding-top: 96px;
+        padding-bottom: 34px;
+        gap: 24px;
+      }
+
+      .video-stage {
+        aspect-ratio: 16 / 7;
+      }
+
+      .proof-grid,
+      .product-grid,
+      .reaction-grid,
+      .story-grid,
+      .use-grid,
+      .casual-gallery {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .casual-gallery {
+        grid-template-rows: repeat(3, 220px);
+      }
+
+      .gallery-item.large,
+      .gallery-item.wide,
+      .gallery-item.tall,
+      .gallery-item.video-wide,
+      .gallery-item.video-tall {
+        grid-column: auto;
+        grid-row: auto;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .site-header {
+        padding: 14px 18px;
+      }
+
+      .brand {
+        font-size: 14px;
+      }
+
+      .hero-actions {
+        display: grid;
+        margin-top: 20px;
+      }
+
+      .hero-inner {
+        width: min(1180px, calc(100% - 44px));
+      }
+
+      h1 {
+        margin: 16px 0 12px;
+        font-size: 39px;
+      }
+
+      .lead {
+        font-size: 16px;
+        line-height: 1.65;
+      }
+
+      .video-caption {
+        padding: 10px 12px;
+        font-size: 12px;
+      }
+
+      .button {
+        width: calc(100% - 5px);
+      }
+
+      .button.primary,
+      .button.secondary {
+        box-shadow: 3px 3px 0 rgba(11, 39, 71, .86);
+      }
+
+      .hero-price-tag {
+        max-width: calc(100% - 5px);
+      }
+
+      .proof-grid,
+      .product-grid,
+      .reaction-grid,
+      .story-grid,
+      .use-grid,
+      .media-photo-grid,
+      .media-stack,
+      .casual-gallery {
+        grid-template-columns: 1fr;
+      }
+
+      .media-side-stack .media-card {
+        grid-template-columns: 132px 1fr;
+      }
+
+      .media-side-stack .media-embed {
+        aspect-ratio: auto;
+      }
+
+      .media-side-stack .media-card-body {
+        padding: 12px;
+      }
+
+      .media-side-stack .media-card-body h3 {
+        font-size: 16px;
+      }
+
+      .media-side-stack .media-card-body p {
+        display: none;
+      }
+
+      .media-side-stack .media-actions {
+        display: none;
+      }
+
+      .casual-gallery {
+        grid-template-rows: repeat(9, minmax(240px, auto));
+      }
+
+      .media-stack img:last-child {
+        margin-bottom: 0;
+      }
+
+      .proof {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .proof:last-child {
+        border-bottom: 0;
+      }
+    }
+
+    @media (max-width: 380px) {
+      h1 {
+        font-size: 36px;
+      }
+    }
+
+    @media (max-width: 340px) {
+      h1 {
+        font-size: 31px;
+      }
+    }
+
+    @media (min-width: 900px) {
+      .sticky-buy {
+        display: none;
+      }
+    }
+    /* --- shopping guide (added in revision draft) --- */
+    .lineup-note {
+      margin: 22px 0 0;
+      font-weight: 800;
+      color: var(--navy);
+    }
+    .lineup-note a { color: var(--red); }
+    .guide-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .guide-card {
+      border: 3px solid var(--navy);
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 5px 5px 0 rgba(11, 39, 71, .92);
+      padding: 22px;
+      display: grid;
+      gap: 12px;
+      align-content: start;
+    }
+    .guide-card h3 { margin: 0; font-size: 19px; line-height: 1.4; }
+    .guide-card p { margin: 0; color: var(--muted); font-size: 14.5px; font-weight: 700; }
+    .guide-card ul, .guide-card ol { margin: 0; padding-left: 1.3em; color: var(--muted); font-size: 14.5px; font-weight: 700; }
+    .guide-card li + li { margin-top: 4px; }
+    .table-scroll { overflow-x: auto; }
+    .ship-table {
+      border-collapse: collapse;
+      width: 100%;
+      min-width: 430px;
+      font-size: 13.5px;
+      font-weight: 700;
+    }
+    .ship-table th, .ship-table td {
+      border: 1px solid var(--line);
+      padding: 6px 8px;
+      text-align: right;
+      white-space: nowrap;
+    }
+    .ship-table th { background: var(--navy); color: #fff; text-align: center; }
+    .ship-table th:first-child, .ship-table td:first-child { text-align: left; }
+    .ship-table tr:nth-child(even) td { background: #fffaf0; }
+    .guide-highlight {
+      border: 2px solid var(--navy);
+      border-radius: 8px;
+      background: var(--sand);
+      padding: 14px 16px;
+      font-weight: 800;
+      color: var(--navy);
+      font-size: 15px;
+    }
+    .faq { display: grid; gap: 10px; margin-top: 16px; }
+    .faq details {
+      border: 2px solid var(--navy);
+      border-radius: 8px;
+      background: #fff;
+      padding: 14px 18px;
+    }
+    .faq summary { font-weight: 900; color: var(--navy); cursor: pointer; }
+    .faq details p { margin: 8px 0 0; color: var(--muted); font-size: 14.5px; font-weight: 700; }
+    .guide-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: center; margin-bottom: 8px; }
+    .footer-links a { color: var(--navy); }
+    @media (max-width: 900px) {
+      .guide-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" aria-label="ページ上部">
+    <div class="brand">
+      荒磯丸 あらいそまる
+      <small>磯貝嘉市商店 | 新ひだか町</small>
+    </div>
+    <nav class="nav" aria-label="ページ内ナビゲーション">
+      <a href="#about">魅力</a>
+      <a href="#lineup">商品</a>
+      <a href="#story">作り手</a>
+      <a href="#guide">購入案内</a>
+      <a href="#buy">今すぐ購入</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <span class="eyebrow">北海道・新ひだか町の昆布屋から</span>
+          <h1>
+            <span class="title-line title-main">ふかふか、うまい。</span>
+            <span class="title-line title-sub">昆布屋さんの豚まん。</span>
+          </h1>
+          <p class="lead">北海道・新ひだか町から届く「荒磯丸 あらいそまる」。小腹がすいた夜にも、休日のお昼にも、北海道らしい手土産にも。</p>
+          <div class="hero-price-tag">
+            <span>まずは1個</span>
+            <span class="price">税込520円</span>
+            <span class="tax">※送料別途</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="https://www.kaichi-shoten.com/item/030/">あらいそまるを購入する</a>
+            <a class="button secondary" href="#lineup">味を選ぶ</a>
+          </div>
+        </div>
+        <aside class="video-panel" aria-label="動画エリア">
+          <div class="video-stage">
+            <video controls playsinline preload="metadata" poster="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/araisomaru-lp-hero-poster.jpg">
+              <source src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/araisomaru-lp-hero.mp4" type="video/mp4">
+            </video>
+            <span class="video-note">音声ありで再生できます</span>
+            <div class="video-badge">
+              <strong>海から届く、昆布屋の豚まん。</strong>
+              <span>日高昆布豚まん 荒磯丸</span>
+            </div>
+          </div>
+          <div class="video-caption">
+            <span>昆布漁 + 物産展</span>
+            <span>再生ボタンで音声あり</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <div class="proof-strip">
+      <div class="wrap">
+        <div class="proof-grid" aria-label="商品ポイント">
+          <div class="proof">
+            <strong>税込520円</strong>
+            <span>※送料別途。まずは1個から試しやすい</span>
+          </div>
+          <div class="proof">
+            <strong>4種</strong>
+            <span>辛い・チーズ・甘いも選べる</span>
+          </div>
+          <div class="proof">
+            <strong>日高昆布</strong>
+            <span>昆布屋ならではの旨み</span>
+          </div>
+          <div class="proof">
+            <strong>公式通販</strong>
+            <span>気になったらそのまま購入へ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fun-band" aria-label="あらいそまるの楽しみ方">
+      <div class="fun-band-track">
+        <span>あつあつで食べたい</span>
+        <span>北海道みやげにちょうどいい</span>
+        <span>今日はどの色にする？</span>
+        <span>昆布屋さんの豚まん</span>
+        <span>家族で食べ比べ</span>
+        <span>あつあつで食べたい</span>
+        <span>北海道みやげにちょうどいい</span>
+        <span>今日はどの色にする？</span>
+        <span>昆布屋さんの豚まん</span>
+        <span>家族で食べ比べ</span>
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="wrap split">
+        <div class="media-stack">
+          <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-araisomaru-black.jpg" alt="日高昆布豚まん あらいそまるの商品写真">
+          <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/tasting-scene.jpg" alt="物産展で荒磯丸を手に取る様子">
+        </div>
+        <div class="copy-block">
+          <div class="section-head">
+            <span class="section-kicker">WHY ARAISOMARU</span>
+            <h2>昆布を、もっと気軽に。昆布屋の、日高昆布豚まん。</h2>
+            <p>「子どもでも気軽に昆布を食べてほしい」。そんな思いから生まれた新商品が、荒磯丸 あらいそまるです。</p>
+          </div>
+          <ul class="feature-list">
+            <li>小腹がすいたときに、しっかり満足できるあたたかい一品。</li>
+            <li>北海道らしさが伝わるから、自分用にも手土産にも選びやすい。</li>
+            <li>真っ黒な見た目に「なんだこれ！」。子どもも大人も笑顔になる豚まんを目指しました。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-sand media-section">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">MEDIA</span>
+          <h2>日高昆布の現状から、あらいそまるの物語へ。</h2>
+          <p>近鉄百貨店での大北海道展出展に際して、森島バイヤーの企画する北海道展の現場で読売テレビが磯貝嘉市商店を取材。日高昆布を取り巻く現状という少し重たいテーマから、子どもにも昆布を食べてほしいという想い、そして「あらいそまる」の話へつながります。同内容はミヤネ屋でも放送されました。</p>
+        </div>
+        <div class="media-grid">
+          <article class="media-card featured">
+            <div class="media-embed">
+              <iframe src="https://www.youtube.com/embed/AYjUVI8iTp8?start=481" title="読売テレビによる磯貝嘉市商店の紹介動画" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="media-card-body">
+              <span class="media-tag">読売テレビ 8:01から</span>
+              <h3>近鉄百貨店・森島バイヤーの大北海道展で取材。ミヤネ屋でも放送。</h3>
+              <p>日高昆布の現状、漁師としての想い、そして新商品「あらいそまる」へ。背景まで知ると、ひと口の意味が少し変わります。</p>
+            </div>
+          </article>
+          <div class="media-side-stack">
+            <article class="media-card">
+              <div class="media-embed">
+                <iframe src="https://www.youtube.com/embed/2Cxcx9MPSTg?start=100" title="HTB番組内での磯貝嘉市商店の紹介動画" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div class="media-card-body">
+                <span class="media-tag">HTB 1:40から</span>
+                <h3>HTB番組内でも紹介。</h3>
+                <p>新ひだか町の海から、あらいそまるにつながる昆布づくりの背景をご覧いただけます。</p>
+              </div>
+            </article>
+            <article class="media-card">
+              <div class="media-embed">
+                <iframe src="https://www.youtube.com/embed/gL_VZ9bPFGk" title="あらいそまるが紹介されたYouTube動画" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div class="media-card-body">
+                <span class="media-tag">YouTubeでも紹介</span>
+                <h3>別動画でも、あらいそまるが紹介されています。</h3>
+                <p>売り場で目を引く黒い豚まんとして、北海道展のにぎわいの中でも存在感があります。</p>
+                <div class="media-actions">
+                  <a class="button primary" href="https://www.kaichi-shoten.com/item/030/">あらいそまるを購入する</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="media-photo-grid" aria-label="日高昆布商品の写真">
+          <figure class="media-photo">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/morishima-event-2.jpg" alt="ざるに並ぶ日高昆布や関連商品の写真">
+            <figcaption>北海道展で伝えたい、日高昆布の恵み</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-sand" id="lineup">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">LINEUP</span>
+          <h2>今日はどれにする？まずは王道「あらいそまる」。</h2>
+          <p>迷ったら、まずは税込520円 ※送料別途の「あらいそまる」。辛いもの好き、チーズ好き、甘いもの派にはシリーズ買いもおすすめです。</p>
+        </div>
+        <div class="product-grid">
+          <article class="product">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-araisomaru-black.jpg" alt="日高昆布豚まん あらいそまる">
+            <div class="product-body">
+              <h3>日高昆布豚まん あらいそまる</h3>
+              <p>はじめてならこれ。日高昆布豚まんの王道です。</p>
+              <span class="price">税込 520円 ※送料別途</span>
+              <a class="product-link" href="https://www.kaichi-shoten.com/item/030/">購入する</a>
+            </div>
+          </article>
+          <article class="product">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-karaisomaru-yellow.jpg" alt="日高昆布豚まん からいそまる">
+            <div class="product-body">
+              <h3>日高昆布豚まん からいそまる</h3>
+              <p>ピリッとした味が好きな方へ。食べ比べにも。</p>
+              <span class="price">税込 550円 ※送料別途</span>
+              <a class="product-link" href="https://www.kaichi-shoten.com/item/031/">購入する</a>
+            </div>
+          </article>
+          <article class="product">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-karaiso-cheese-white.jpg" alt="日高昆布豚まん からいそまる チーズ入り">
+            <div class="product-body">
+              <h3>からいそまる チーズ入り</h3>
+              <p>辛さにチーズの満足感。濃いめが食べたい日に。</p>
+              <span class="price">税込 600円 ※送料別途</span>
+              <a class="product-link" href="https://www.kaichi-shoten.com/item/034/">購入する</a>
+            </div>
+          </article>
+          <article class="product">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-amaisomaru-pink.jpg" alt="あまいそまる">
+            <div class="product-body">
+              <h3>あまいそまる</h3>
+              <p>甘いもの派はこちら。家族で選ぶ楽しさも。</p>
+              <span class="price">税込 410円 ※送料別途</span>
+              <a class="product-link" href="https://www.kaichi-shoten.com/item/032/">購入する</a>
+            </div>
+          </article>
+        </div>
+        <p class="lineup-note">送料・お支払い・発送の目安は <a href="#guide">購入案内</a> で確認できます。まとめ買いほど、1個あたりの送料がお得になります。</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">SNAP</span>
+          <h2>海も、売り場も、まるごとおいしい。</h2>
+          <p>昆布が育つ海、干す手仕事、物産展のにぎわい。あらいそまるの背景まで見えると、ひと口がちょっと楽しくなります。</p>
+        </div>
+        <div class="casual-gallery">
+          <figure class="gallery-item large">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/kombu-seaside-drying.jpg" alt="海辺で昆布を干す様子">
+            <figcaption class="gallery-label">昆布を干す朝</figcaption>
+          </figure>
+          <figure class="gallery-item tall">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/kombu-harvest-portrait.jpg" alt="船の上で昆布を抱える漁の様子">
+            <figcaption class="gallery-label">海から揚がる昆布</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-araisomaru-black.jpg" alt="黒色のあらいそまる">
+            <figcaption class="gallery-label">黒のあらいそまる</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/kombu-boat-sea.jpg" alt="昆布を積んだ船が海を進む様子">
+            <figcaption class="gallery-label">漁の現場から</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/kombu-handwork.jpg" alt="昆布を手作業で整える様子">
+            <figcaption class="gallery-label">昆布屋の手仕事</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/isogai-shop-front.jpg" alt="磯貝嘉市商店の店舗外観">
+            <figcaption class="gallery-label">新ひだか町のお店</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/araisomaru-brand-banners.jpg" alt="あらいそまるのブランド幕">
+            <figcaption class="gallery-label">あらいそまるの目印</figcaption>
+          </figure>
+          <figure class="gallery-item video-item video-wide">
+            <video controls playsinline preload="metadata" poster="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/previews/sancha-original.MOV.png">
+              <source src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/event-market-clip.mp4" type="video/mp4">
+            </video>
+            <figcaption class="gallery-label">物産展の雰囲気</figcaption>
+          </figure>
+          <figure class="gallery-item video-item video-tall">
+            <video controls playsinline preload="metadata" poster="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/kombu-harvest-clip-poster.jpg">
+              <source src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/kombu-harvest-clip.mp4" type="video/mp4">
+            </video>
+            <figcaption class="gallery-label">昆布漁の動画</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-sand">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">REAL VOICE</span>
+          <h2>物産展で、思わず手に取られる存在感。</h2>
+          <p>催事の売り場でも目を惹く荒磯丸。気になって買って、イベント中にもう一度買いに来る方もいます。</p>
+        </div>
+        <div class="reaction-grid">
+          <article class="reaction-card">
+            <h3>「また食べたい」が、売り場で生まれています。</h3>
+            <p>北海道物産展でも目を惹く黒い豚まん。昆布の旨みが入っているのに食べやすく、家族で楽しみやすい一品です。</p>
+            <ul class="reaction-list">
+              <li>物産展で人気。催事で手に取られています。</li>
+              <li>イベント中にリピート買いされる方も多数。</li>
+              <li>昆布が苦手だったお子さんでも、食べられるようになったという声も。</li>
+            </ul>
+          </article>
+          <article class="easy-card">
+            <img src="https://hokkaido-gadget.github.io/isogai-araisomaru/assets/product-araisomaru-black.jpg" alt="黒色のあらいそまる">
+            <div class="easy-body">
+              <h3>冷凍で保管。食べたい時にレンジでチン。</h3>
+              <div class="easy-steps" aria-label="食べ方">
+                <div class="easy-step"><span>1</span><p>冷凍状態で保管しておけます。</p></div>
+                <div class="easy-step"><span>2</span><p>食べたいタイミングで取り出します。</p></div>
+                <div class="easy-step"><span>3</span><p>レンジであたためて、ふかふかを楽しめます。</p></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="story">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">STORY</span>
+          <h2>5代続く昆布漁師の想いから、生まれました。</h2>
+          <p>北海道・新ひだか町で5代続く昆布漁師、磯貝家。太平洋の荒波の中で培ってきた昆布の知識と、地元やお子さんへの想いが「あらいそまる」につながりました。</p>
+        </div>
+        <div class="story-grid">
+          <article class="story-card">
+            <span>1</span>
+            <h3>子どもにも昆布を</h3>
+            <p>だしだけではなく、もっと気軽に昆布を食べてほしい。そんなやさしい発想が出発点です。</p>
+          </article>
+          <article class="story-card">
+            <span>2</span>
+            <h3>船の名を冠して</h3>
+            <p>商品名は、磯貝代表が乗り込む漁船の名前から。船と同じ名を冠した、魂のこもった一品です。</p>
+          </article>
+          <article class="story-card">
+            <span>3</span>
+            <h3>なんだこれ！から笑顔へ</h3>
+            <p>真っ黒な見た目で興味をひき、食べた瞬間に笑顔になれる豚まんを目指しました。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">SCENE</span>
+          <h2>家にあるとうれしい、北海道のごちそう。</h2>
+          <p>朝ごはん、夜食、休日のお昼、家族での食べ比べ。食べたいタイミングが来たとき、買っておいてよかったと思える一個です。</p>
+        </div>
+        <div class="use-grid">
+          <article class="use">
+            <h3>忙しい日の満足ごはんに。</h3>
+            <p>あたためて、さっと食べたいときに</p>
+          </article>
+          <article class="use">
+            <h3>北海道らしい手土産に。</h3>
+            <p>ご当地感のある贈り物として</p>
+          </article>
+          <article class="use">
+            <h3>食べ比べセットで。</h3>
+            <p>あらいそまる、からいそまる、あまいそまる</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-sand" id="guide">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="section-kicker">SHOPPING GUIDE</span>
+          <h2>購入前に、送料と流れを確認できます。</h2>
+          <p>ご購入は、磯貝嘉市商店の公式通販サイトで承ります。送料は地域と個数（箱のサイズ）で決まります。まとめ買いほど、1個あたりの送料がお得です。</p>
+        </div>
+
+        <div class="guide-grid">
+          <article class="guide-card">
+            <h3>送料の目安（税込）</h3>
+            <p>個数の目安：1〜4個は50サイズ、5〜6個は60サイズ、7〜15個は80サイズの箱でお届けします（豚まんのみの場合）。</p>
+            <div class="table-scroll">
+              <table class="ship-table">
+                <thead>
+                  <tr><th>お届け先</th><th>50サイズ<br>（〜4個）</th><th>60サイズ<br>（〜6個）</th><th>80サイズ<br>（〜15個）</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>北海道</td><td>418円</td><td>671円</td><td>704円</td></tr>
+                  <tr><td>北東北</td><td>495円</td><td>781円</td><td>924円</td></tr>
+                  <tr><td>南東北</td><td>550円</td><td>858円</td><td>1,012円</td></tr>
+                  <tr><td>関東・信越</td><td>605円</td><td>968円</td><td>1,100円</td></tr>
+                  <tr><td>北陸・中部</td><td>660円</td><td>1,089円</td><td>1,254円</td></tr>
+                  <tr><td>関西</td><td>770円</td><td>1,188円</td><td>1,342円</td></tr>
+                  <tr><td>中国</td><td>825円</td><td>1,430円</td><td>1,562円</td></tr>
+                  <tr><td>四国</td><td>825円</td><td>1,430円</td><td>1,562円</td></tr>
+                  <tr><td>九州</td><td>935円</td><td>1,485円</td><td>1,562円</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- 要確認（公開前）: あらいそまるにクール便加算が適用されるか、磯貝嘉市商店への確認が必要 -->
+            <p>冷凍便（クール）でお届けする場合、50・60サイズは＋275円、80サイズは＋330円が加算されます。その他のサイズ・地域の送料は、購入先サイトの「特定商取引法に基づく表示」をご確認ください。</p>
+            <p>送料込みの合計金額は、ご注文後に店舗から届くメールでご案内します。自動返信メールには送料が含まれませんので、ご注意ください。</p>
+          </article>
+
+          <article class="guide-card">
+            <h3>まとめ買いがお得です</h3>
+            <p>送料は箱ごとに決まるので、個数が増えるほど1個あたりの送料が下がります。関東へのお届け・クール便加算込みの試算です。</p>
+            <ul>
+              <li>1個：商品520円＋送料880円＝<strong>合計1,400円</strong></li>
+              <li>6個：商品3,120円＋送料1,243円＝<strong>合計4,363円</strong></li>
+              <li>15個：商品7,800円＋送料1,430円＝<strong>合計9,230円</strong>（1個あたりの送料は約95円）</li>
+            </ul>
+            <div class="guide-highlight">家族での食べ比べや、手土産のまとめ買いがおすすめです。味の組み合わせは自由に選べます。</div>
+            <h3>お支払い・発送</h3>
+            <ul>
+              <li>お支払い：クレジットカード、代金引換、銀行振込（代金引換手数料・振込手数料はお客様のご負担です）</li>
+              <li>発送：ご注文確認後（銀行振込はご入金確認後）5日以内に発送します</li>
+              <li>配送：日本国内のみ</li>
+            </ul>
+          </article>
+        </div>
+
+        <article class="guide-card">
+          <h3>ご注文の流れ</h3>
+          <ol>
+            <li>このページの「購入する」ボタンから、磯貝嘉市商店の公式通販サイトへ進みます。</li>
+            <li>商品ページで数量を選んで「カートへ入れる」を押します。</li>
+            <li>購入者情報とお支払い方法を入力し、注文を確定します。</li>
+            <li>店舗からのメールで、送料込みの合計金額をご確認ください。</li>
+          </ol>
+        </article>
+
+        <div class="faq">
+          <details>
+            <summary>送料はいくらかかりますか？</summary>
+            <p>お届け先の地域と、個数に応じた箱のサイズで決まります。上の表が目安です。確定金額は、ご注文後に店舗から届くメールでご案内します。</p>
+          </details>
+          <details>
+            <summary>注文してから、どのくらいで届きますか？</summary>
+            <p>ご注文確認後（銀行振込の場合はご入金確認後）5日以内に発送します。お届けまでの日数は地域により異なります。</p>
+          </details>
+          <details>
+            <summary>支払い方法は何がありますか？</summary>
+            <p>クレジットカード、代金引換、銀行振込が使えます。代金引換手数料と振込手数料はお客様のご負担です。</p>
+          </details>
+          <details>
+            <summary>保存と食べ方を教えてください。</summary>
+            <p>冷凍のまま保管し、食べたいときにレンジで温めるだけです。ふかふかの食感をお楽しみください。</p>
+          </details>
+          <details>
+            <summary>問い合わせ先はどこですか？</summary>
+            <p>販売者：有限会社 磯貝嘉市商店（北海道日高郡新ひだか町三石越海町144）／ TEL 0146-33-2418。公式通販サイトのお問い合わせフォームからも連絡できます。</p>
+          </details>
+        </div>
+
+        <div class="guide-links">
+          <a class="button outline" href="https://www.kaichi-shoten.com/info.html">特定商取引法に基づく表示</a>
+          <a class="button outline" href="https://www.kaichi-shoten.com/shopping.html">ご利用案内（購入先サイト）</a>
+          <a class="button outline" href="https://www.kaichi-shoten.com/">磯貝嘉市商店 公式サイト</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="buy">
+      <div class="wrap">
+        <div class="cta-box">
+          <div>
+            <h2>まずは王道の「あらいそまる」から。</h2>
+            <p>ふかふか生地のご当地豚まん。気になった今が、いちばんおいしいタイミングです。</p>
+          </div>
+          <div class="cta-actions">
+            <a class="button primary" href="https://www.kaichi-shoten.com/item/030/">あらいそまるを購入する</a>
+            <a class="button secondary" href="https://www.kaichi-shoten.com/category/17/">あらいそまるシリーズを見る</a>
+            <a class="button secondary" href="https://www.kaichi-shoten.com/">磯貝嘉市商店を見る</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <nav class="footer-links" aria-label="販売者情報へのリンク">
+      <a href="https://www.kaichi-shoten.com/">磯貝嘉市商店 公式サイト</a>
+      <a href="https://www.kaichi-shoten.com/info.html">特定商取引法に基づく表示</a>
+      <a href="https://www.kaichi-shoten.com/shopping.html">ご利用案内</a>
+      <a href="#guide">購入案内（送料・発送）</a>
+    </nav>
+    <div>販売者：有限会社 磯貝嘉市商店 ／ TEL 0146-33-2418</div>
+    <div>商品情報・画像出典: 有限会社磯貝嘉市商店 公式サイト</div>
+  </footer>
+  <a class="sticky-buy" href="https://www.kaichi-shoten.com/item/030/">あらいそまるを購入する</a>
+</body>
+</html>
